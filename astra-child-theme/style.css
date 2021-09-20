@@ -1,0 +1,51 @@
+/*
+ Theme Name:   Astra Child Theme
+ Theme URI:    http://localhost
+ Description:  Astra Child Theme
+ Author:       Karla Marie Møller
+ Author URI:   http://karlamariemoller.dk
+ Template:     astra
+ Version:      0.0.8
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         Blog, Custom Colors, Custom Logo, Custom Menu, E-Commerce, Editor Style, Entertainment, Featured Images, Full Width Template, Left Sidebar, Microformats, One Column, Post Formats, Right Sidebar, RTL Language Support, Theme Options, Threaded Comments, Translation Ready, Two Columns
+ Text Domain:  astrachildtheme
+*/
+
+/* Tilføjelser på alle sider*/
+h1,h2,h3 {
+    font-family: 'Lato', sans-serif !important;
+}
+
+p,h4, h5 {
+    font-family: 'Karla', sans-serif !important;
+}
+
+div#site-navigation {
+    background: white;
+    padding: 12px 0;
+    color: black;
+    font-family: 'Lato', sans-serif !important; 
+}
+
+/* ændre kontaktformularen på "kontakt"*/
+.elementor-column.elementor-col-50.elementor-inner-column.elementor-element.elementor-element-d237a4e {
+    margin: 0.5em;
+}
+
+/* ændre submit-knap på "kontakt"*/
+button#wpforms-submit-1107 {
+    border-radius: 0;
+}
+
+/* Overlay over billedet*/
+
+/* Image To Text */
+.elementor-element.elementor-element-64bed7a.hovbox.elementor-widget.elementor-widget-text-editor {
+    opacity: 0;
+    transition-duration: 1s;
+}
+
+.elementor-element.elementor-element-64bed7a.hovbox.elementor-widget.elementor-widget-text-editor:hover{
+    opacity: 1;
+}
