@@ -5,7 +5,7 @@
  Author:       Karla Marie Møller
  Author URI:   http://karlamariemoller.dk
  Template:     astra
- Version:      0.0.12
+ Version:      0.0.14
  License:      GNU General Public License v2 or later
  License URI:  http://www.gnu.org/licenses/gpl-2.0.html
  Tags:         Blog, Custom Colors, Custom Logo, Custom Menu, E-Commerce, Editor Style, Entertainment, Featured Images, Full Width Template, Left Sidebar, Microformats, One Column, Post Formats, Right Sidebar, RTL Language Support, Theme Options, Threaded Comments, Translation Ready, Two Columns
@@ -19,10 +19,10 @@ h1,h2,h3 {
 
 p,h4, h5 {
     font-family: 'Karla', sans-serif !important;
-    color: #0000000 !important;
+    color: #000 !important;
 }
 
-
+/* nav-baren ændringer*/
 div#site-navigation {
     background: white;
     padding: 12px 0;
@@ -49,8 +49,10 @@ figcaption {
     font-family: 'Karla';
 }
 
-header {
-  position: fixed;
-  top: 0;
-  width: 100%
+/* sticky header*/
+.site-primary-header-wrap.ast-builder-grid-row-container.site-header-focus-item.ast-container {
+    position: fixed;
+    width: 100%;
+    background-color: #fff;
+    padding: 10px 16px; 
 }
